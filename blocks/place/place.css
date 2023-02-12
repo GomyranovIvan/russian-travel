@@ -1,0 +1,10 @@
+.place {
+    display: grid;
+    justify-items: start;
+    gap: 48px 40px;
+    grid-template-areas: 
+    'title website'
+    'image paragraph'
+    'image paragraph';
+    grid-auto-flow: column;
+}
