@@ -8,6 +8,7 @@
     .photo-grid {
         gap: 12px 12px;
         max-width: 288px;
+        margin-top: 64px;
     }
 }
 
@@ -15,6 +16,7 @@
     .photo-grid {
         gap: 16px 16px;
         max-width: 720px;
+        margin-top: 88px;
     }
 }
 
@@ -22,6 +24,7 @@
     .photo-grid {
         gap: 14px 14px;
         max-width: 928px;
+        margin-top: 92px;
     }
 }
 
