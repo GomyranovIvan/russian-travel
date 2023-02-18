@@ -1,7 +1,6 @@
 .place__title {
     font-weight: 900;
     margin: 0;
-    max-width: 460px;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
@@ -19,7 +18,6 @@
         font-size: 42px;
         line-height: 46px;
         width: 340px;
-        min-height: 92px;
         display: flex;
         flex-direction: column;
     }

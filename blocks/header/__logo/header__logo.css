@@ -1,14 +1,13 @@
 .header__logo {
-position: absolute;
+    justify-self: left;
 }
 
 
 @media screen and (min-width: 320px) {
     .header__logo {
+        margin: 16px 0 0 16px;
         width: 142px;
         height: 42px;
-        top: 16px;
-        left: 16px;
 }
 }
 
@@ -16,14 +15,13 @@ position: absolute;
     .header__logo {
         width: 176px;
         height: 52px;
-        left: 24px;
-        top: 28px;
+        margin: 28px 0 0 24px;
 }
 }
 
 @media screen and (min-width: 1024px) {
     .header__logo {
-        left: 48px;
+        margin: 28px 0 0 48px;
 }
 }
 

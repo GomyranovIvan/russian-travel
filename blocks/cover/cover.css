@@ -4,8 +4,8 @@
     margin: 0 auto;
     position: relative;
     width: 100%;
-    height: auto;
     display: flex;
+    min-height: 200px;
 }
 .cover::before {
   content: '';
@@ -31,12 +31,6 @@
 
 }
 
-@media screen and (min-width: 320px) {
-    .cover {
-        min-height: 200px;
-    }
-}
-
 @media screen and (min-width: 768px) {
     .cover {
         min-height: 480px;
@@ -52,7 +46,6 @@
 
 @media screen and (min-width: 1280px) {
     .cover {
-      max-width: 1184px;
       max-height: 740px;
     }
 }
