@@ -3,3 +3,7 @@
   text-decoration: none;
   color: #ffffff;
 }
+
+.footer__link:hover {
+  opacity: 0.8;
+}
